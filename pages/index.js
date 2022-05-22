@@ -124,20 +124,32 @@ export default function Home() {
 
       </main>
 
-      <footer className={styles.footer}>
-        <article>
-          <div className={styles.squareFooter}>
 
+      <footer>
+        <section >
+          <div className={styles.main_footer_separator}>
+            
           </div>
-          <div className={styles.squareFooter}>
+        </section>
+        <section className={styles.footer}>
+          <article>
+            <div className={styles.squareFooter}>
 
-          </div>
-        </article>
-        <article>
-          <h1>
-          Proin enim enim, tincidunt consequat sollicitudin.
-          </h1>
-        </article>
+            </div>
+            <div className={styles.squareFooter}>
+
+            </div>
+          </article>
+
+
+
+          <article>
+            <h1>
+              Proin enim enim, tincidunt consequat sollicitudin.
+            </h1>
+          </article>
+        </section>
+
 
 
       </footer>
