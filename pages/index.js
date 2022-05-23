@@ -50,7 +50,7 @@ export default function Home() {
               Suspendisse tincidunt vulputate ex, a laoreet neque luctus vitae. Quisque maximus ante sapien, at pharetra sem sagittis eu. Maecenas nibh leo, interdum ac malesuada quis, tempus vel lacus.
 
             </p>
-            
+
             <p>
               Aliquam quis velit et nunc scelerisque auctor quis id lacus. Proin sem turpis, rutrum ut placerat nec, varius sit amet lacus. Praesent sed viverra lorem.
 
@@ -62,7 +62,7 @@ export default function Home() {
 
 
         {/* Grid Block */}
-        <section className={styles.grid}>
+        {/* <section className={styles.grid}>
           <article>
             <div className={styles.square}>
 
@@ -91,7 +91,25 @@ export default function Home() {
           </article>
 
 
-        </section>
+        </section> */}
+
+
+
+        <div className="grid_container">
+          <div className="a"></div>
+          <div className="b"></div>
+          <div className="c"></div>
+          <div className="d"></div>
+          <div className="e"></div>
+        </div>
+
+
+
+
+
+
+
+
         {/* End of Grig Block */}
 
 
@@ -109,7 +127,7 @@ export default function Home() {
           </article>
 
           <article className={styles.servicesImages}>
-            
+
             <div className={styles.square_1}>
 
             </div>
@@ -138,7 +156,7 @@ export default function Home() {
       <footer className={styles.footer}>
         <section>
           <div className={styles.main_footer_separator}>
-            
+
           </div>
         </section>
         <section className={styles.footer_bottom}>
