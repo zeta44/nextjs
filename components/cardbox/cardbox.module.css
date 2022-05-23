@@ -1,6 +1,6 @@
 .grid_card_container {
     display: grid;
-    height: 775px;
+    height: 80vh;
     margin: 0;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
@@ -18,4 +18,10 @@
 .grid_card_2 {
     grid-area: grid_card_2;
     background-color: #5F35F7;
+}
+
+@media (max-width: 768px) {
+    .grid_card_container {
+        height: 50vh;       
+    }
 }

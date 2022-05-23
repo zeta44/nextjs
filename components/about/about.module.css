@@ -1,9 +1,8 @@
 .about {
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     flex-direction: column;
-    padding: 10px;
-    padding-bottom: 40px;
+    padding: 100px;
     color: #000000;
     /* justify-content: center; */
     /* flex-wrap: wrap; */
@@ -17,7 +16,7 @@
 }
 
 .about h1 {
-    width: 100%;
+    width: 40%;
     /* height: 100px; */
     font-style: normal;
     font-weight: 500;
@@ -29,7 +28,7 @@
 }
 
 .about p {
-    width: 100%;
+    width: 60%;
     /* height: 100px; */
     /* medium 21 */
     font-style: normal;

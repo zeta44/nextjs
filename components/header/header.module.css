@@ -1,0 +1,60 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    margin: 10% 0 0 0;
+}
+
+.title_top {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 160%;
+    margin-top: 20px;
+    margin-left: 20px;
+    /* identical to box height, or 34px */
+    color: #000000;
+}
+
+.title {
+    margin-top: 0px;
+    margin-left: 20px;
+    line-height: 1.15;
+    font-size: 84px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%;
+    letter-spacing: -0.02em;
+    color: #000000;
+
+}
+
+.title,
+.title_top,
+.description {
+    text-align: left;
+}
+
+.description {
+    margin: 4rem 0;
+    line-height: 1.5;
+    font-size: 1.5rem;
+}
+
+
+@media (max-width: 414px) {
+    .header {
+        margin: 230px 0 0 0;
+    }
+
+    .title_top {
+        font-size: 21px;
+    }
+
+    .title {        
+        font-size: 32px;       
+
+    } 
+    
+}
