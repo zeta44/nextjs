@@ -95,19 +95,15 @@ export default function Home() {
 
 
 
-        <div className="grid_container">
-          <div className="a"></div>
-          <div className="b"></div>
-          <div className="c"></div>
-          <div className="d"></div>
-          <div className="e"></div>
-        </div>
-
-
-
-
-
-
+        <section>
+          <article className={styles.grid_container}>
+            <div className={styles.a}></div>
+            <div className={styles.b}></div>
+            <div className={styles.c}></div>
+            <div className={styles.d}></div>
+            <div className={styles.e}></div>
+          </article>
+        </section>
 
 
         {/* End of Grig Block */}
