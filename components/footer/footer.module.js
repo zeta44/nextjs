@@ -26,9 +26,6 @@ export function Footer() {
                         Proin enim enim, tincidunt consequat sollicitudin.
                     </h1>
                 </article>
-
-
-
             </section>
         </section>
     )

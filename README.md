@@ -1,6 +1,20 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Requirements
+
+Install NodeJS - V.16+
+
+## Technologies
+
+[Next.js] version "12.1.6",
+[React] version "18.1.0",
+[React-dom] version "18.1.0"
+
 ## Getting Started
+
+Run `npm install` to fetch dependencies.
+
+Run `npm run dev` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 First, run the development server:
 
@@ -32,3 +46,11 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
+
+
+
+
+

@@ -4,38 +4,40 @@
     flex-direction: column;
     padding: 100px;
     color: #000000;
-    /* justify-content: center; */
-    /* flex-wrap: wrap; */
-    /* margin: 1rem; */
-    /* padding: 1.5rem; */
-    /* text-align: left; */
-    /* background: #5F35F7; */
-    /* border: 1px solid #1d1a1a; */
-    /* transition: color 0.15s ease, border-color 0.15s ease; */
-    /* height: 776px; */
 }
 
 .about h1 {
     width: 40%;
-    /* height: 100px; */
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
     line-height: 110%;
-    /* or 46px */
     text-align: center;
 
 }
 
 .about p {
     width: 60%;
-    /* height: 100px; */
-    /* medium 21 */
     font-style: normal;
     font-weight: 500;
     font-size: 21px;
     line-height: 160%;
     text-align: justify;
-    /* or 34px */
+    
+}
 
+@media (max-width: 991px) {
+    .about {        
+        padding: 100px 10px 100px 10px;
+       
+    }
+    
+    .about h1 {
+        width: 100%;
+            
+    }
+    
+    .about p {
+        width: 100%;
+    }
 }

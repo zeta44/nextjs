@@ -43,6 +43,24 @@
 }
 
 
+
+
+@media (max-width: 930px) {
+    .header {
+        margin: 230px 0 0 0;
+    }
+
+    .title_top {
+        font-size: 21px;
+    }
+
+    .title {        
+        font-size: 38px;       
+
+    } 
+    
+}
+
 @media (max-width: 414px) {
     .header {
         margin: 230px 0 0 0;
