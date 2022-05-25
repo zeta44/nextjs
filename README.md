@@ -6,9 +6,13 @@ Install NodeJS - V.16+
 
 ## Technologies
 
-[Next.js] version "12.1.6",
-[React] version "18.1.0",
-[React-dom] version "18.1.0"
+[Next.js] version "12.1.6".
+[React] version "18.1.0".
+[React-dom] version "18.1.0".
+
+# Extra JS Library
+
+[AOS] version "2.3.4".
 
 ## Getting Started
 
@@ -16,17 +20,8 @@ Run `npm install` to fetch dependencies.
 
 Run `npm run dev` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Extra informations
 
 [API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
