@@ -13,7 +13,7 @@ export function Squares() {
         data-aos-duration="1500"
         ></div>
         <div className={styles.c}
-        data-aos="flip-down"
+        data-aos="flip-right"
         data-aos-duration="1700"
         ></div>
         <div className={styles.d}
