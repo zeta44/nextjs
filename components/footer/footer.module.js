@@ -8,21 +8,32 @@ export function Footer() {
 
                 </div>
             </section>
-            <section className={styles.footer_bottom} data-aos="fade-down">
+            <section className={styles.footer_bottom}
+            data-aos="fade-down"
+            data-aos-duration="1000">
 
                 <article>
-                    <div className={styles.squareFooter}>
+                    <div className={styles.squareFooter}
+                    data-aos="flip-right"
+                    data-aos-duration="1000"
+                    >
 
                     </div>
 
-                    <div className={styles.squareFooter}>
+                    <div className={styles.squareFooter}
+                    data-aos="flip-right"
+                    data-aos-duration="1000"
+                    >
 
                     </div>
                 </article>
 
 
                 <article>
-                    <h1>
+                    <h1
+                    data-aos="zoom-in"
+                    data-aos-duration="1000"
+                    >
                         Proin enim enim, tincidunt consequat sollicitudin.
                     </h1>
                 </article>
