@@ -2,13 +2,13 @@ import styles from './footer.module.css';
 
 export function Footer() {
     return (
-        <section className={styles.footer}>
-            <section>
+        <section className={styles.footer} >
+            <section data-aos="fade-up">
                 <div className={styles.main_footer_separator}>
 
                 </div>
             </section>
-            <section className={styles.footer_bottom}>
+            <section className={styles.footer_bottom} data-aos="fade-down">
 
                 <article>
                     <div className={styles.squareFooter}>
