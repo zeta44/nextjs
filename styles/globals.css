@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'SuisseIntL';
+  src: url('../asset/SuisseIntL/Suisse_Int\'l.otf');
+  font-weight: 400;
+  font-style: normal;
+  }
+
 html,
 body {
   padding: 0;
