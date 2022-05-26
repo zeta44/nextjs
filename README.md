@@ -9,10 +9,12 @@ Install NodeJS - V.16+
 [Next.js] version "12.1.6".
 [React] version "18.1.0".
 [React-dom] version "18.1.0".
+[React-Awesome-Slider] version "4.1.0". `https://www.npmjs.com/package/react-awesome-slider`
 
 # Extra JS Library
 
-[AOS] version "2.3.4".
+[AOS] version "2.3.4". `https://michalsnik.github.io/aos/`
+
 
 ## Getting Started
 
