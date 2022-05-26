@@ -46,6 +46,12 @@
   height: 290px;
 }
 
+.slider_bottom_container{
+  display: none;
+  visibility: hidden;
+  /* margin-bottom: 40px; */
+}
+
 @media (max-width: 900px) {
   .grid_container {
     margin: 0;
@@ -91,5 +97,29 @@
     grid-area: e;
     background-color: #5F35F7;
     height: 290px;
+  }
+}
+
+@media (max-width: 500px) {
+  .grid_container {
+      display: none;
+      visibility: hidden;
+      
+  }
+
+  .slider_bottom_container{
+      display: flex;
+      visibility: visible;
+      /* margin-bottom: 40px; */
+  }
+  
+  .grid_card_1 {
+      grid-area: 1 / 1 / 2 / 2;
+      background-color: #5F35F7;
+  }
+  
+  .grid_card_2 {
+      grid-area: 2 / 1 / 3 / 2;
+      background-color: #5F35F7;
   }
 }
