@@ -39,7 +39,6 @@
   .footer_bottom article h1 {
     margin: 0 auto;
     padding-left: 40px;
-    font-style: normal;
     font-weight: 500;
     font-size: 42px;
     line-height: 110%;
@@ -49,12 +48,12 @@
   .squareFooter {
     margin-right: 40px;
     width: 70%;
-    height: 350px;
+    height: 50vh;
     background: #5F35F7;
     /* margin: 20px; */
   }
   
-  @media (max-width: 991px) {
+  @media (max-width: 900px) {
     
     .footer {
       display: flex;
@@ -99,7 +98,7 @@
     .squareFooter {
       margin-bottom: 40px;
       width: 333%;
-      height: 350px;
+      height: 250px;
       background: #5F35F7;
       
     }

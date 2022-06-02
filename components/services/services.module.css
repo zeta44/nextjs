@@ -65,7 +65,7 @@
 .service_grid_2 {
   grid-area: 3 / 3 / 6 / 6;
   background-color: #4425B3;
-  height: 430px;
+  height: 60vh;
 }
 
 .service_grid_2 p {
@@ -77,7 +77,7 @@
   margin: 0 auto;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 900px) {
   .services {
     display: flex;
     padding: 50px 0px 100px 0px;
