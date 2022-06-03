@@ -21,21 +21,34 @@
     font-size: 21px;
     line-height: 160%;
     text-align: justify;
-    
+
 }
 
-@media (max-width: 991px) {
-    .about {        
+@media (max-width: 768px) {
+    .about {
         padding: 100px 10px 100px 10px;
-       
+
     }
-    
+
     .about h1 {
-        width: 100%;
-            
+        width: 60%;
+
     }
-    
+
     .about p {
         width: 100%;
     }
+}
+
+@media (max-width: 500px) {
+    .about {
+        padding: 100px 10px 100px 10px;
+
+    }
+
+    .about h1 {
+        width: 100%;
+
+    }
+
 }
